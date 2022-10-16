@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/custom.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css"
+    />
+    <title>Personal Information</title>
+  </head>
+  <body>
+    <!-- sm md lg xl -->
+    <div class="container">
+      <header>
+        <h1 class="logo"><a href="index.html">AL-Shanti</a></h1>
+        <nav id="my-nav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </nav>
+      </header>
+    </div>
+    <!--  -->
+    <div class="hero">
+      <div class="info">
+        <p>Hi there</p>
+        <h2>I'm <span>Ahmed Salem</span></h2>
+        <hr />
+        <h3>I am a FrontEnd React JS Web Developer</h3>
+        <button class="btn">Download Cv</button>
+      </div>
+      <img src="./image/web.png" alt="" />
+    </div>
+    <!--  -->
+
+    <section>
+      <div class="box">
+        <img src="./image/ahmed.jpg" alt="" />
+        <div class="about">
+          <h2>About Me</h2>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+            numquam quam, pariatur tempora, sint dolorum voluptatibus quasi
+            laboriosam esse repellendus dolore repellat odit sequi! Voluptates
+            sint atque possimus vitae reprehenderit!
+          </p>
+          <button class="btn">Know More</button>
+        </div>
+      </div>
+    </section>
+
+    <div class="portfolio">
+      <h2>See my latest work</h2>
+
+      <div class="img-project">
+        <p>Web Design | Web development</p>
+
+        <img src="./image/profile1.png" alt="" />
+        <img src="./image/profile2.png " alt="" />
+        <img src="./image/profile3.png" alt="" />
+        <img src="./image/profile4.png" alt="" />
+
+        <img src="./image/bg-i.jpg" alt="" />
+        <img src="./image/2.jpg" alt="" />
+        <img src="./image/slider03.jpg" alt="" />
+        <img src="./image/post-3.jpg" alt="" />
+
+        <img src="./image/profile6.png" alt="" />
+        <img src="./image/3.jpg" alt="" />
+        <img src="./image/6.jpg" alt="" />
+        <img src="./image/2.jpg" alt="" />
+      </div>
+    </div>
+
+    <div class="contact">
+      <h1>CONTACT FOR MORE INFO</h1>
+      <div class="info-contact">
+        <img src="./image/3.jpg" alt="contact" />
+        <form action="">
+          <input type="text" name="username" placeholder="User Name" />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter Email"
+          />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Enter Notice"
+          ></textarea>
+          <input type="submit" value="Submit" class="btn" />
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <h1>Ahmed Salem</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="contact-footer">
+        <a href="tel:+970568879088">00568879088</a>
+        <a href="mailto:a4medsalem.98@gmail.com">a4medsalem.98@gmail.com</a>
+        <p>Palestine, Gaza</p>
+      </div>
+      <div class="social">
+        <h3>FOLLOW NOW</h3>
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+      </div>
+    </footer>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("my-nav");
+        if (x.className === "nav") {
+          x.className += " responsive";
+        } else {
+          x.className = "nav";
+        }
+      }
+    </script>
+  </body>
+</html>
